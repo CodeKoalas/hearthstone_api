@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[DEV] Debug Mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "flutterMode": "debug",
+            "args": [
+                "--vmservice-out-file=detective_connect.txt",
+                "--disable-service-auth-codes",
+                "--dart-define=ENVIRONMENT=development"
+            ]
+        },
+        {
+            "name": "[DEV] Profile Mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "flutterMode": "profile",
+            "args": [
+                "--dart-define=ENVIRONMENT=development"
+            ]
+        },
+        {
+            "name": "[PROD] Debug Mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "flutterMode": "debug",
+            "args": [
+                "--dart-define=ENVIRONMENT=production"
+            ],
+        },
+        {
+            "name": "[PROD] Release Mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "flutterMode": "release",
+            "args": [
+                "--dart-define=ENVIRONMENT=production"
+            ],
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - dart_code_metrics
+
+  errors:
+    avoid_print: false
+    avoid_relative_lib_imports: false
+    constant_identifier_names: false
+    sized_box_for_whitespace: false
+
+  exclude:
+    - android/**
+    - ios/**
+    - build/**
+    - lib/**/*.g.dart
+    - lib/**/*.freezed.dart
+    - test/**/*.mocks.dart
+    - test/*.mocks.dart

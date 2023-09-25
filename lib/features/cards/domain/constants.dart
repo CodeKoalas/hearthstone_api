@@ -1,0 +1,1 @@
+const kFavoriteCardsBoxName = 'favoritecards';

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892960052582",
+    "project_id": "koality-flutter",
+    "storage_bucket": "koality-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892960052582:android:720b4a43a8f232110e24a7",
+        "android_client_info": {
+          "package_name": "com.codekoalas.koalityFlutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892960052582-h9180lkgaoop10m0bqh817u0vl5vmav7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj4a8LSaHeU0FT9mDPG_oe736PC2WrXFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892960052582-h9180lkgaoop10m0bqh817u0vl5vmav7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
